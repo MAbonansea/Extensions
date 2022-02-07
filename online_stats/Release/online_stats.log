@@ -1,0 +1,14 @@
+﻿Build started 6/2/2022 03:16:44.
+     1>Project "C:\Users\Miguel Bonansea\Documents\GitHub\fonline_aftertimes_s2_server_tools (1)\Server\extensions\online_stats\online_stats.vcxproj" on node 6 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\online_stats.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\3rdParty\StlPort /I..\3rdParty\angelscript\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D __SERVER /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D ONLINE_STATS_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt online_stats.cpp
+         online_stats.cpp
+     1>c:\users\miguel bonansea\documents\github\fonline_aftertimes_s2_server_tools (1)\server\extensions\fonline.h(1961): error C2118: negative subscript
+         compiled as server
+     1>Done Building Project "C:\Users\Miguel Bonansea\Documents\GitHub\fonline_aftertimes_s2_server_tools (1)\Server\extensions\online_stats\online_stats.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.75

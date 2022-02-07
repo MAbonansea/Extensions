@@ -1,0 +1,23 @@
+﻿Build started 6/2/2022 03:16:44.
+     1>Project "C:\Users\Miguel Bonansea\Documents\GitHub\fonline_aftertimes_s2_server_tools (1)\Server\extensions\check_look\check_look.vcxproj" on node 5 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\check_look.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\3rdParty\angelscript\include /I..\3rdParty\StlPort /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D __SERVER /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHa /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt check_look.cpp Lookup.cpp Walking.cpp WallDist.cpp
+         check_look.cpp
+     1>c:\users\miguel bonansea\documents\github\fonline_aftertimes_s2_server_tools (1)\server\extensions\fonline.h(1961): error C2118: negative subscript
+         compiled as server
+         Lookup.cpp
+     1>c:\users\miguel bonansea\documents\github\fonline_aftertimes_s2_server_tools (1)\server\extensions\fonline.h(1961): error C2118: negative subscript
+         compiled as server
+         Walking.cpp
+     1>c:\users\miguel bonansea\documents\github\fonline_aftertimes_s2_server_tools (1)\server\extensions\fonline.h(1961): error C2118: negative subscript
+         compiled as server
+         WallDist.cpp
+     1>c:\users\miguel bonansea\documents\github\fonline_aftertimes_s2_server_tools (1)\server\extensions\fonline.h(1961): error C2118: negative subscript
+         compiled as server
+     1>Done Building Project "C:\Users\Miguel Bonansea\Documents\GitHub\fonline_aftertimes_s2_server_tools (1)\Server\extensions\check_look\check_look.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.48

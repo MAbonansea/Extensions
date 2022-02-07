@@ -1,0 +1,26 @@
+﻿Build started 6/2/2022 03:16:44.
+     1>Project "C:\Users\Miguel Bonansea\Documents\GitHub\fonline_aftertimes_s2_server_tools (1)\Server\extensions\client_parameters\client_parameters.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\parameters_client.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\3rdParty\StlPort /I..\3rdParty\angelscript\include /nologo /W3 /WX- /O2 /Oi /Ot /Oy- /GL /D __CLIENT /D _WINDLL /D _MBCS /Gm- /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\buffer_lazy\buffer_lazy.cpp ..\online_stats\client_online_stats.cpp AngelScript.cpp parameters_client.cpp utils.cpp
+         buffer_lazy.cpp
+     1>c:\users\miguel bonansea\documents\github\fonline_aftertimes_s2_server_tools (1)\server\extensions\fonline.h(1961): error C2118: negative subscript
+         compiled as client
+         client_online_stats.cpp
+     1>c:\users\miguel bonansea\documents\github\fonline_aftertimes_s2_server_tools (1)\server\extensions\fonline.h(1961): error C2118: negative subscript
+         compiled as client
+         AngelScript.cpp
+     1>c:\users\miguel bonansea\documents\github\fonline_aftertimes_s2_server_tools (1)\server\extensions\fonline.h(1961): error C2118: negative subscript
+         compiled as client
+         parameters_client.cpp
+     1>c:\users\miguel bonansea\documents\github\fonline_aftertimes_s2_server_tools (1)\server\extensions\fonline.h(1961): error C2118: negative subscript
+         compiled as client
+         utils.cpp
+     1>c:\users\miguel bonansea\documents\github\fonline_aftertimes_s2_server_tools (1)\server\extensions\fonline.h(1961): error C2118: negative subscript
+         compiled as client
+     1>Done Building Project "C:\Users\Miguel Bonansea\Documents\GitHub\fonline_aftertimes_s2_server_tools (1)\Server\extensions\client_parameters\client_parameters.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.66

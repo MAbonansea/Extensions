@@ -1,0 +1,23 @@
+﻿Build started 5/2/2022 02:16:56.
+     1>Project "D:\Descarga\fonline_aftertimes_s2_server_tools\Server\extensions\client_parameters\client_parameters.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\parameters_client.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\3rdParty\StlPort /I..\3rdParty\angelscript\include /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\buffer_lazy\buffer_lazy.cpp ..\online_stats\client_online_stats.cpp AngelScript.cpp parameters_client.cpp utils.cpp ..\online_stats\xfiregameclient.cpp
+         xfiregameclient.cpp
+         utils.cpp
+     1>d:\descarga\fonline_aftertimes_s2_server_tools\server\extensions\fonline.h(49): fatal error C1189: #error :  __SERVER / __CLIENT / __MAPPER any of this must be defined
+         parameters_client.cpp
+     1>d:\descarga\fonline_aftertimes_s2_server_tools\server\extensions\fonline.h(49): fatal error C1189: #error :  __SERVER / __CLIENT / __MAPPER any of this must be defined
+         AngelScript.cpp
+     1>d:\descarga\fonline_aftertimes_s2_server_tools\server\extensions\fonline.h(49): fatal error C1189: #error :  __SERVER / __CLIENT / __MAPPER any of this must be defined
+         client_online_stats.cpp
+         compiled as client
+         buffer_lazy.cpp
+     1>d:\descarga\fonline_aftertimes_s2_server_tools\server\extensions\fonline.h(49): fatal error C1189: #error :  __SERVER / __CLIENT / __MAPPER any of this must be defined
+         Generating Code...
+     1>Done Building Project "D:\Descarga\fonline_aftertimes_s2_server_tools\Server\extensions\client_parameters\client_parameters.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.34

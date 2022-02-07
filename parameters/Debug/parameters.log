@@ -1,0 +1,13 @@
+﻿Build started 5/2/2022 02:16:56.
+     1>Project "D:\Descarga\fonline_aftertimes_s2_server_tools\Server\extensions\parameters\parameters.vcxproj" on node 5 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\parameters.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\3rdParty\StlPort /I..\3rdParty\angelscript\include /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt parameters.cpp
+         parameters.cpp
+     1>d:\descarga\fonline_aftertimes_s2_server_tools\server\extensions\fonline.h(49): fatal error C1189: #error :  __SERVER / __CLIENT / __MAPPER any of this must be defined
+     1>Done Building Project "D:\Descarga\fonline_aftertimes_s2_server_tools\Server\extensions\parameters\parameters.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.18
